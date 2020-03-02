@@ -12,7 +12,7 @@
 		19ABE6F9240CBFD300B80F61 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19ABE6F8240CBFD300B80F61 /* ContentView.swift */; };
 		19ABE6FB240CBFD600B80F61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19ABE6FA240CBFD600B80F61 /* Assets.xcassets */; };
 		19ABE6FE240CBFD600B80F61 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19ABE6FD240CBFD600B80F61 /* Preview Assets.xcassets */; };
-		19ABE701240CBFD600B80F61 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19ABE6FF240CBFD600B80F61 /* LaunchScreen.storyboard */; };
+		19ABE701240CBFD600B80F61 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19ABE6FF240CBFD600B80F61 /* Main.storyboard */; };
 		19ABE70C240CBFD600B80F61 /* dyzbTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19ABE70B240CBFD600B80F61 /* dyzbTests.swift */; };
 		19ABE717240CBFD700B80F61 /* dyzbUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19ABE716240CBFD700B80F61 /* dyzbUITests.swift */; };
 /* End PBXBuildFile section */
@@ -42,7 +42,7 @@
 		19ABE6F8240CBFD300B80F61 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		19ABE6FA240CBFD600B80F61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		19ABE6FD240CBFD600B80F61 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		19ABE700240CBFD600B80F61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		19ABE700240CBFD600B80F61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		19ABE702240CBFD600B80F61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		19ABE707240CBFD600B80F61 /* dyzbTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dyzbTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		19ABE70B240CBFD600B80F61 /* dyzbTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dyzbTests.swift; sourceTree = "<group>"; };
@@ -80,6 +80,7 @@
 		1982672A240CD9A800127F30 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				19ABE6FF240CBFD600B80F61 /* Main.storyboard */,
 				19826732240CD9A800127F30 /* Main */,
 				1982672B240CD9A800127F30 /* Home */,
 				1982672D240CD9A800127F30 /* Follow */,
@@ -177,7 +178,6 @@
 				19ABE6F6240CBFD300B80F61 /* SceneDelegate.swift */,
 				19ABE6F8240CBFD300B80F61 /* ContentView.swift */,
 				19ABE6FA240CBFD600B80F61 /* Assets.xcassets */,
-				19ABE6FF240CBFD600B80F61 /* LaunchScreen.storyboard */,
 				19ABE702240CBFD600B80F61 /* Info.plist */,
 				19ABE6FC240CBFD600B80F61 /* Preview Content */,
 			);
@@ -314,7 +314,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				19ABE701240CBFD600B80F61 /* LaunchScreen.storyboard in Resources */,
+				19ABE701240CBFD600B80F61 /* Main.storyboard in Resources */,
 				19ABE6FE240CBFD600B80F61 /* Preview Assets.xcassets in Resources */,
 				19ABE6FB240CBFD600B80F61 /* Assets.xcassets in Resources */,
 			);
@@ -379,12 +379,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		19ABE6FF240CBFD600B80F61 /* LaunchScreen.storyboard */ = {
+		19ABE6FF240CBFD600B80F61 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				19ABE700240CBFD600B80F61 /* Base */,
 			);
-			name = LaunchScreen.storyboard;
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -513,7 +513,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"dyzb/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = dyzb/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -535,7 +535,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"dyzb/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = dyzb/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
