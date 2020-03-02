@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		19826727240CD80C00127F30 /* Classes in Resources */ = {isa = PBXBuildFile; fileRef = 19826726240CD80C00127F30 /* Classes */; };
 		19ABE6F5240CBFD300B80F61 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19ABE6F4240CBFD300B80F61 /* AppDelegate.swift */; };
 		19ABE6F7240CBFD300B80F61 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19ABE6F6240CBFD300B80F61 /* SceneDelegate.swift */; };
 		19ABE6F9240CBFD300B80F61 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19ABE6F8240CBFD300B80F61 /* ContentView.swift */; };
@@ -37,7 +36,6 @@
 
 /* Begin PBXFileReference section */
 		19826725240CD41900127F30 /* dyzb.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = dyzb.entitlements; sourceTree = "<group>"; };
-		19826726240CD80C00127F30 /* Classes */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Classes; sourceTree = "<group>"; };
 		19ABE6F1240CBFD300B80F61 /* dyzb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dyzb.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		19ABE6F4240CBFD300B80F61 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		19ABE6F6240CBFD300B80F61 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -102,7 +100,6 @@
 		19ABE6F3240CBFD300B80F61 /* dyzb */ = {
 			isa = PBXGroup;
 			children = (
-				19826726240CD80C00127F30 /* Classes */,
 				19826725240CD41900127F30 /* dyzb.entitlements */,
 				19ABE6F4240CBFD300B80F61 /* AppDelegate.swift */,
 				19ABE6F6240CBFD300B80F61 /* SceneDelegate.swift */,
@@ -246,7 +243,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				19ABE701240CBFD600B80F61 /* LaunchScreen.storyboard in Resources */,
-				19826727240CD80C00127F30 /* Classes in Resources */,
 				19ABE6FE240CBFD600B80F61 /* Preview Assets.xcassets in Resources */,
 				19ABE6FB240CBFD600B80F61 /* Assets.xcassets in Resources */,
 			);
